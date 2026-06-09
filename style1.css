@@ -92,9 +92,8 @@ body {
     align-items: center;
     width: 450px;
     height: 250px;
-}
-.image-placeholder p {
-    color:#fafbfc;
+    color: #e5e7eb;
+    text-align: center;
 }
 .image img {
     max-height: 250px;
