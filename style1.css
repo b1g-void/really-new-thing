@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.page-header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.centerer {
+    display: flex;
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+}
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 600;
+}
+.header-logo a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+.header-logo a:hover {
+    font-weight: 700;
+}
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.nav-button {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.nav-button:hover {
+    font-weight: 700;
+}
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+}
+.centerer-two {
+    display: flex;
+    width: 75%;
+    margin: 80px auto;
+    gap: 50px;
+}
+.section-one-words {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    margin: 0 auto 0 0;
+}
+.main-header {
+    color: #f9faf8;
+    font-size: 48px;
+    max-width: 66%;
+}
+.site-summary {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 550px;
+    margin: 20px 0 0;
+}
+.sign-up-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 10px;
+    max-width: 100px;
+    height: 30px;
+    margin: 20px 0 0;
+}
+.sign-up-button:hover {
+    cursor: pointer;
+}
+.sign-up-button:active {
+    background-color: #2762c1;
+}
+.image-placeholder {
+    display: flex;
+    background-color: #707277;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 250px;
+}
+.image-placeholder p {
+    color:#fafbfc;
+}
+.image img {
+    max-height: 250px;
+    margin: 0 0 0 auto;
+}
+img:hover {
+    cursor: pointer;
+}
+.image figcaption {
+    color:#e5e7eb;
+    text-align: center;
+}
+.section-two {
+    min-height: 250px;
+    margin: 50px 0 75px;
+}
+.centerer-three {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.section-two-header {
+    font-size: 36px;
+    color: #1f2937;
+}
+.section-two-features {
+    display: flex;
+    gap: 10px;
+}
+.box-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    min-height: 280px;
+    width: 225px;
+}
+.image-outline img {
+    height: 150px;
+    width: 150px;
+    border: 3px #3882f6 solid;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+.bing-chilling {
+    background-color: rgb(237, 62, 62);
+    padding: 7px;
+}
+.section-three {
+    display: flex;
+    height: 350px;
+    padding: 75px 0 75px;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+.centerer-four {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+.quote-wrapper {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    max-width: 650px;
+}
+.quote-attribution {
+    margin: 20px 0 0;
+    font-size: 24px;
+    align-self: end;
+    font-weight: 700;
+    color: #1f2937;
+}
+.section-four {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.call-2-action {
+    display: flex;
+    background-color: #3882f6;
+    width: 75%;
+    height: 150px;
+    border-radius: 15px;
+}
+.call-2-action button {
+    border: #f9faf8 solid 2px;
+    font-size: 18px;
+    border-width: 3px;
+    height: 35px;
+    min-width: 140px;
+    margin: 0 0 0 auto;
+    justify-self: right;
+}
+.smaller-call-2-action {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: left;
+}
+.sign-up-header {
+    justify-self: left;
+    color:#f9faf8;
+}
+.sign-up-text {
+    justify-self: left;
+    color: #e5e7eb;
+}
+.global-footer {
+    display: flex;
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
